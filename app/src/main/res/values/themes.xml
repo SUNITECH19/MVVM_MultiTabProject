@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CareerMitra" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryVariant</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorBackLightCyan</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+        <item name="android:colorForeground">@color/colorGray</item>
+
+    </style>
+
+
+    <style name="Theme.CareerMitra.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CareerMitra.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CareerMitra.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--     Side nav theme. -->
+    <style name="ThemeSideNav" parent="Theme.CareerMitra">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_baseline_arrow_back_24</item>
+    </style>
+
+<!--    Custom Theme  -->
+
+    <style name="SearchView" parent="Theme.CareerMitra.AppBarOverlay" >
+        <!-- Text color -->
+        <item name="android:editTextColor">@color/colorWhite</item>
+        <!-- Hint text color -->
+        <item name="android:textColorHint">@color/colorGrayLight</item>
+        <item name="searchHintIcon">@color/colorGrayLight</item>
+        <item name="closeIcon">@color/colorWhite</item>
+        <item name="backgroundTint">@color/colorWhite</item>
+    </style>
+
+
+
+
+
+</resources>

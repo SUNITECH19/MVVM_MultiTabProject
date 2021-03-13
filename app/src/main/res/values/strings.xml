@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- START :  App Name , Version etc     -->
+    <string name="app_name">WackyCodes</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open</string>
+
+    <!-- END :   App Name , Version etc     -->
+
+    <!--    Main Activity  -->
+    <string name="nav_open">Open Navigation</string>
+    <string name="nav_close">Close Navigation</string>
+
+
+    <string name="data_not_found">Sorry! Data Not Found!</string>
+    <string name="no_data_matched">Sorry! No Data Matched!</string>
+    <string name="no_notifications">You don\'t have any notification!</string>
+
+
+</resources>
